@@ -9,7 +9,7 @@ const client = new MongoClient(
 client
   .connect()
   .then(() => {
-    console.log('connected !');
+    console.log('connectedb !');
   })
   .catch((err) => {
     console.log(err);
